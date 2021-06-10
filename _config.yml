@@ -1,0 +1,49 @@
+# Site Settings
+baseurl: ""
+url : "https://hwa-ryeon.github.io"
+
+# Blog Settings
+theme_settings :
+  title : 개발 블로그
+  favicon : assets/favicon.ico
+
+  # Profile Settings
+  profile :
+    image : assets/images/me.png
+    username : Hwaryeon Im
+    description : creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
+    experience :
+      - start : 2021-06-05
+        end : 2021-06-05
+        experience : company name, title
+    skills : 
+      - skill : HTML5 & CSS
+        value : 85  # Percent value
+        
+  # Icons
+  icons :
+    email:  "hwaryeon1603@gmail.com" 
+    linkedin:  # Full URL 
+    github: Imhwaryeon
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    twitter:
+    youtube:
+    facebook:
+    instagram:
+
+  # Disqus
+  disqus_shortname :
+
+# Pagination
+paginate: 5
+paginate_path: "blog/page:num"
+
+# Build Ssttings
+sass:
+  sass_dir: _sass
+  style: :compressed
+gems: [jekyll-paginate]
+bootstrap:
+  assets: true
