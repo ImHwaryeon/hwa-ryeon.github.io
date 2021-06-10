@@ -11,7 +11,7 @@ theme_settings :
   profile :
     image : assets/images/me.png
     username : Hwaryeon Im
-    description : creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
+    description : Developer. Designer
     experience :
       - start : 2021-06-05
         end : 2021-06-05
